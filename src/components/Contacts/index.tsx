@@ -31,11 +31,11 @@ export const Contacts = () => {
           <motion.div style={{ scale }}>
             <ContactSectionText>
               <Text type="heading2" color="grey4">
-                Let's talk and{" "}
+                Vamos conversar e{" "}
                 <Text as="span" type="heading2" color="brand1">
-                  develop solutions for your company
+                  desenvolver soluções para sua empresa 
                 </Text>
-                , together!
+                {" "}juntos!
               </Text>
             </ContactSectionText>
           </motion.div>
@@ -46,10 +46,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My email
+                  Meu email
                 </Text>
                 <Text color="grey2" type="body2">
-                  Send me an email reporting feedbacks, suggestions and ideas
+                  Envie-me um email com feedbacks, sugestões e ideias
                 </Text>
 
                 <Text
@@ -59,7 +59,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={`mailto:${userData.emailUser}`}
                 >
-                  Send me an email
+                  Envie-me um email
                 </Text>
               </ContactCardContent>
             </ContactCard>
@@ -69,11 +69,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My LinkedIn
+                  Meu LinkedIn
                 </Text>
                 <Text color="grey2" type="body2">
-                  We can create more constant interactions as well as a sharing
-                  network
+                  Podemos criar interações mais constantes e compartilhar network
                 </Text>
                 <Text
                   as="a"
@@ -82,7 +81,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={linkedInUrl}
                 >
-                  Go to LinkedIn now
+                  Vá para o LinkdIn
                 </Text>
               </ContactCardContent>
             </ContactCard>

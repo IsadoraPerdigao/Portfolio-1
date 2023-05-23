@@ -44,29 +44,28 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá, meu nome é {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                amo
               </Text>{" "}
-              creating and{" "}
+              criar e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                desenvolver
               </Text>{" "}
-              projects
+              projetos
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            Desenvolvedora Front-end com conhecimento em HTML, CSS, JavaScript, TypeScript, React e algumas das bibliotecas mais comuns para desenvolvimento de páginas web como Styled-components, React Hook Form, React Router. Além disso, tenho familiaridade com boas práticas de desenvolvimento e vivência em utilização de Metodologia ágil com SCRUM. Também possuo conhecimento em Node.JS com Express e Python com Django para desenvolvimento de APIs REST. Sou fluente em inglês, tendo atuado como professora de língua inglesa anteriormente.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Ver projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={"https://github.com/IsadoraPerdigao/Portfolio-1"}>
-                See my portfolio source code
+                Ver o código fonte do meu portfólio
               </Button>
               <Button
                 color="grey5"
@@ -92,12 +91,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns dos meus{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  projetos pessoais
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
